@@ -34,7 +34,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnPlayAudioTapped:" destination="fHG-fV-Lu0" eventType="touchUpInside" id="Pe8-3h-ShB"/>
+                                    <action selector="btnPlayAudioTappedWithSender:" destination="fHG-fV-Lu0" eventType="touchUpInside" id="8vn-tC-eJR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08G-Fc-PmS">
@@ -49,8 +49,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnPlayAudioRepeatedlyTapped:" destination="fHG-fV-Lu0" eventType="touchUpInside" id="tYA-dQ-wAE"/>
-                                    <action selector="btnPlayAudioTapped:" destination="fHG-fV-Lu0" eventType="touchUpInside" id="0Ad-Ze-SAl"/>
+                                    <action selector="btnPlayAudioRepeatedlyTappedWithSender:" destination="fHG-fV-Lu0" eventType="touchUpInside" id="uHZ-pQ-Tvf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP8-5y-qti">
@@ -65,7 +64,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnStopAudioTapped:" destination="fHG-fV-Lu0" eventType="touchUpInside" id="dyG-dG-dGF"/>
+                                    <action selector="btnStopAudioTappedWithSender:" destination="fHG-fV-Lu0" eventType="touchUpInside" id="Aqc-1o-EMW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -83,13 +82,13 @@
                     <tabBarItem key="tabBarItem" title="Audio" id="YMr-e5-WTW"/>
                     <navigationItem key="navigationItem" id="OkP-r1-7Y4"/>
                     <connections>
-                        <outlet property="btnPlayAudioRepeatedly" destination="08G-Fc-PmS" id="U9G-57-1kP"/>
-                        <outlet property="btnStopAudio" destination="DP8-5y-qti" id="MZe-Ap-mDX"/>
+                        <outlet property="btnPlayAudioRepeatedly" destination="08G-Fc-PmS" id="n3S-jC-Fnw"/>
+                        <outlet property="btnStopAudio" destination="DP8-5y-qti" id="5Zh-ph-P5P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RoX-xc-9GC" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="81" y="157"/>
+            <point key="canvasLocation" x="-327" y="944"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UNx-E7-1l0">
@@ -174,7 +173,7 @@
                     <viewLayoutGuide key="safeArea" id="JeU-q9-9Oq"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="82" y="1095"/>
+            <point key="canvasLocation" x="-327" y="56"/>
         </scene>
     </scenes>
 </document>
